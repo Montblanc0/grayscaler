@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Grayscaler</title>
+    <link rel="shortcut icon"
+        href=" data:image/png;base64,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"
+        type="image/x-icon">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Pacifico', cursive;
+        }
+
+        .bg {
+            animation: slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg, #000000 50%, #ffffff 50%);
+        }
+
+        .bg:nth-child(2) {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .bg:nth-child(3) {
+            animation-duration: 5s;
+        }
+
+        .disabled {
+            pointer-events: none;
+            filter: grayscale(95%);
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(25%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg fixed inset-y-0 -inset-x-2/4 opacity-50 z-0 bg-gradient-to-r from-yellow-400 to-pink-500"></div>
+    <div class="bg fixed inset-y-0 -inset-x-2/4 opacity-50 z-0 bg-gradient-to-r from-yellow-400 to-pink-500"></div>
+    <div class="bg fixed inset-y-0 -inset-x-2/4 opacity-50 z-0 bg-gradient-to-r from-yellow-400 to-pink-500"></div>
+    <div class="flex items-center justify-center h-screen relative z-100">
+
+        <div class="bg-white bg-opacity-95 border shadow-lg p-10 text-center max-w-2xl">
+            <h1 class="text-5xl mb-8">Grayscaler</h1>
+            <p class="mb-4">Upload a supported image file to apply a grayscale filter.<br>Files must be less than 2
+                megabytes.</p>
+            <label class="bg-pink-600	text-white w-full p-6 block cursor-pointer font-bold mb-4 disabled">
+                <!-- File Input -->
+                <input type="file" id="upload" accept=".gif,.jpg,.jpeg,.png,.tiff,.webp" class="hidden">
+                <span>Please wait...</span>
+            </label>
+            <!-- Image -->
+            <img id="new-img" class="w-auto mx-auto">
+        </div>
+
+    </div>
+</body>
+
+</html>
